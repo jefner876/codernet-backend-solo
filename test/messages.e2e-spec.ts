@@ -2,6 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
+import { clearTimeout } from 'timers';
 
 describe('Messages (e2e)', () => {
   let app: INestApplication;
@@ -36,8 +37,14 @@ describe('Messages (e2e)', () => {
     await app.init();
   });
 
-  afterEach(async () => {
+  afterAll(async () => {
     await app.close();
+    jest.clearAllTimers();
+  });
+
+  afterAll(async () => {
+    await app.close();
+    jest.clearAllTimers();
   });
 
   describe('POST', () => {

@@ -4,7 +4,7 @@
 
 A REST API for a discussion board deisgned for coders, including real-time messaging and connection for a Mongodb cloud database. Developed as a group project during Northcoders Bootcamp.
 
-A version of this api is hosted [here](https://codernet.up.railway.app/api/users).
+A version of this api is hosted [here](https://codernet.azurewebsites.net/api/users).
 
 Information about a connecting front end may be found [here](https://github.com/Guy0017/Guy0017-coderNet-FE) with an associated hosted version [here](https://codernet.onrender.com/)
 
@@ -37,9 +37,9 @@ If you want to develop this project you will first need to:
    ```
 6. You can now start the app locally (note: use ctrl+c to kill the server):
    ```
-   npm run dev:start
+   npm run start:dev
    ```
-8. All done! You can now make requests to your server with a programmes such as [Insomnia](https://insomnia.rest/) or look at connecting to a front end as we have done [here](https://github.com/Guy0017/Guy0017-coderNet-FE)
+7. All done! You can now make requests to your server with a programmes such as [Insomnia](https://insomnia.rest/) or look at connecting to a front end as we have done [here](https://github.com/Guy0017/Guy0017-coderNet-FE)
 
 ## Structure
 
@@ -52,7 +52,6 @@ If you want to develop this project you will first need to:
 - [socket.io](https://socket.io/)
 - [Mongodb](https://www.mongodb.com/)
   - [Mongoose](https://mongoosejs.com/)
-
 
 ### Minimum Requirements
 
