@@ -37,9 +37,9 @@ If you want to develop this project you will first need to:
    ```
 6. You can now start the app locally (note: use ctrl+c to kill the server):
    ```
-   npm run dev:start
+   npm run start:dev
    ```
-8. All done! You can now make requests to your server with a programmes such as [Insomnia](https://insomnia.rest/) or look at connecting to a front end as we have done [here](https://github.com/Guy0017/Guy0017-coderNet-FE)
+7. All done! You can now make requests to your server with a programmes such as [Insomnia](https://insomnia.rest/) or look at connecting to a front end as we have done [here](https://github.com/Guy0017/Guy0017-coderNet-FE)
 
 ## Structure
 
@@ -52,7 +52,6 @@ If you want to develop this project you will first need to:
 - [socket.io](https://socket.io/)
 - [Mongodb](https://www.mongodb.com/)
   - [Mongoose](https://mongoosejs.com/)
-
 
 ### Minimum Requirements
 
