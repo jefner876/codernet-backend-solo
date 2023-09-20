@@ -4,9 +4,9 @@
 
 A REST API for a discussion board deisgned for coders, including real-time messaging and connection for a Mongodb cloud database. Developed as a group project during Northcoders Bootcamp.
 
-A version of this api is hosted [here](https://codernet.up.railway.app/api/users).
+A version of this api is hosted [here](https://codernetapi.onrender.com/api/users).
 
-Information about a connecting front end may be found [here](https://github.com/Guy0017/Guy0017-coderNet-FE) with an associated hosted version [here](https://codernet.onrender.com/)
+Information about a connecting front end may be found [here](https://github.com/jefner876/codernet-frontend-solo) with an associated hosted version [here](https://codernetx.onrender.com)
 
 ## Setup Process
 
